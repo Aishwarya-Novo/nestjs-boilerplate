@@ -1,0 +1,3 @@
+export const PROVIDERS = {
+  CARD_REPOSITORY: 'CARD_REPOSITORY',
+};

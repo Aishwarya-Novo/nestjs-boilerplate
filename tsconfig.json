@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021", // Updated for latest version
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "noLib": false, // https://www.typescriptlang.org/tsconfig#lib
+    "useUnknownInCatchVariables": false, // https://www.typescriptlang.org/tsconfig#useUnknownInCatchVariables
+    "lib": ["ES2021"],
+    "moduleResolution": "Node", // https://www.typescriptlang.org/tsconfig#moduleResolution
+    "noUnusedLocals": false, // Report errors on unused local variables.
+    "noUnusedParameters": false, // Report errors on unused parameters in functions.
+    "esModuleInterop": true, // https://www.typescriptlang.org/tsconfig#esModuleInterop
+    // // https://www.typescriptlang.org/tsconfig#typeRoots
+    // "typeRoots": [ 
+    //   "node_modules/@types",
+    //   "types"
+    // ]
+  },
+  // https://www.typescriptlang.org/tsconfig#type-exclude
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
